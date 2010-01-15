@@ -14,11 +14,10 @@ accelerate beams of particles and then smash them together in a fiery, energetic
 explosion. The newest and biggest machine, the Large Hadron Collider (LHC),
 started operating near Geneva, Switzerland this past November after many years
 of preparation. The energy of the collisions occurring at the LHC allow us to
-probe unknown areas of physics: with higher energies we can discover unstable,
-high mass particles that haven't been plentiful since the universe cooled down
-after the Big Bang.  We anticipate that these high energy collisions will create
-as yet undiscovered particles which will provide important clues about our
-theories of the universe.   
+probe unknown areas of physics: with higher energies we can discover new high
+mass particles that haven't been plentiful since the universe cooled down after
+the Big Bang.  We anticipate that these as yet undiscovered particles will
+provide important clues about our theories of the universe.   
 
 For the past four years, I have been a member in an experiment at the LHC called
 the Compact Muon Solenoid (CMS). Standing six stories tall and weighing 12.5
