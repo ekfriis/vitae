@@ -1,0 +1,72 @@
+Please describe your motivation, academic preparation and aptitude for graduate
+study at UC Davis. You should describe your academic plans and research
+interests, your specialization within your academic field, your research
+experiences and your career goals.
+
+[Outline]
+
+[Intro]
+        Why exciting?  Needs more my motivation
+
+[Academic Prep]
+        ??? classes?
+
+[Research Interests]
+
+[Specialization]
+        Tau physics
+
+
+I was originally attracted to particle physics for two reasons: the beauty of
+truly fundamental physics, and the truly gigantic machines.  The biggest tool in
+particle physicists toolbox is the particle collider - giant machines that
+accelerate beams of particles and then smash them together in a fiery, energetic
+explosion. The newest and biggest machine, the Large Hadron Collider (LHC),
+started operating near Geneva, Switzerland this past November after many years
+of preparation. The energy of these collisions allows us to probe unknown areas
+of physics - with higher energies we can discover unstable high mass particles
+that haven't been plentiful since the universe cooled down after the big bang.
+These particles provide important clues about our theories of our universe.   I
+have been a member in an experiment on the LHC called the Compact Muon Solenoid
+(CMS) for the past four years. CMS is a effectively a very large (six stories
+tall, 12.5 kilotons, the word 'compact' is relative), very expensive camera that
+sits around the point where the beams are collided and takes a three dimensional
+picture of all of particles that fly out from the collision.  
+
+One of the CMS experiment's prime objectives, and the subject of my thesis, is
+the search for the Higgs boson, hypothesized to exist in 1964 as an explanation
+for the existence of mass.  During my graduate career, all of my very diverse
+efforts have had common theme - maximizing the discovery potential of the Higgs
+boson.  My research focuses on the particular channel for observing the Higgs
+where it immediately decays to two tau leptons, subatomic particles that are
+like a heavy electron.
+
+One of the first research activities I participated in was the commissioning of
+the CMS pixel detector - a device that measures the trajectory of charged
+particles with high precision.  The pixel detector is crucial to my thesis as
+identifying tau leptons requires very precise charged particle tracking.  I
+assisted in constructing, testing, and installing the pixels in CMS.
+Furthermore, I designed and wrote the software that calibrates each of the 66
+million pixels individually.
+
+My thesis advisor John Conway and I have been actively improving the field of
+tau identification with a series of innovation in the past four years.  The task
+of a tau identification algorithm is analogous to finding a needle in a
+haystack.  The algorithm must efficiently identify true tau leptons, but must
+not give false positives for 'jets', which are sprays of particles that look
+very similar to tau leptons, and are produced at a rate millions of times higher
+than taus.  We developed a novel new algorithm that reduced the number of false
+positives by a factor of ten.  This algorithm is now used as a standard
+algorithm in the collaboration, and will directly improve the significance of
+the Higgs search.  I also serve a leadership role within the tau-ID group; I
+manage the software and coordinate the efforts of other developers.
+
+I am now moving into the analysis stage and working with the group on preparing
+the analysis to the measure the Z boson decaying to tau leptons.  This is the
+first step in discovering the Higgs, as evidence of the Higgs will appear as a
+bump in the Z mass spectrum.
+
+In the future, I look forward to the upcoming deluge of new data from CMS, and
+taking a crack at discovering the Higgs.  After I complete my degree, I plan to
+obtain a post-doctoral appointment continuing to study LHC physics with the
+eventual goal of becoming a professor at an American university.  
