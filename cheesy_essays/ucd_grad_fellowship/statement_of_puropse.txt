@@ -1,12 +1,3 @@
-prompt:
-
-Please describe your motivation, academic preparation and aptitude for graduate
-study at UC Davis. You should describe your academic plans and research
-interests, your specialization within your academic field, your research
-experiences and your career goals.
-
-=================================================================================
-
 I was originally attracted to particle physics for two reasons: the beauty of
 truly fundamental physics, and the truly gigantic machines.  The biggest tool in
 particle physicists' toolbox are particle colliders - giant machines that
