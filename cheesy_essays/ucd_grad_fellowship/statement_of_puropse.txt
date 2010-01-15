@@ -14,10 +14,10 @@ accelerate beams of particles and then smash them together in a fiery, energetic
 explosion. The newest and biggest machine, the Large Hadron Collider (LHC),
 started operating near Geneva, Switzerland this past November after many years
 of preparation. The energy of the collisions occurring at the LHC allow us to
-probe unknown areas of physics: with higher energies we can discover new high
-mass particles that haven't been plentiful since the universe cooled down after
-the Big Bang.  We anticipate that these as yet undiscovered particles will
-provide important clues about our theories of the universe.   
+probe unknown areas of physics: with higher energies we can discover new
+particles that haven't been plentiful since the universe cooled down after the
+Big Bang.  We anticipate that these as yet undiscovered particles will provide
+important clues about our theories of the universe.   
 
 For the past four years, I have been a member in an experiment at the LHC called
 the Compact Muon Solenoid (CMS). Standing six stories tall and weighing 12.5
@@ -34,11 +34,10 @@ resembling heavy electrons.
 
 One of the first research activities I participated in was the commissioning of
 the CMS pixel detector, a device that precisely measures the trajectory of
-charged particles.  The pixel detector is crucial to the search for the Higgs as
-identifying tau leptons requires excellent charged particle tracking.  I
-assisted in constructing, testing, and installing the pixels in CMS.
-Furthermore, I designed and wrote the software that calibrates each of the 66
-million pixels individually.
+charged particles.  Excellent charged particle tracking is crucial to tau
+identification. I assisted in constructing, testing, and installing the pixels
+in CMS.  Furthermore, I designed and wrote the software that calibrates each of
+the 66 million pixels individually.
 
 My thesis advisor John Conway and I have been actively improving the field of
 tau identification. Identifying a tau is like finding a needle in a haystack:
