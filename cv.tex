@@ -1,14 +1,19 @@
 % Adapted from http://www.cv-templates.info/2009/10/classicthesis-currvita-latex-cv-template/
 
 \documentclass{scrartcl}        % classe article di KOMA
+
+\makeatletter
+\let\saved@bibitem\@bibitem
+\makeatother
+
 \reversemarginpar
 \newcommand{\MarginDate}[1]{\marginpar{\raggedleft\itshape\small#1}}
-%\usepackage[latin1]{inputenc}  % la codifica di input
-%\usepackage[T1]{fontenc}       % la codifica dei font
 \usepackage[LabelsAligned]{currvita}    % un buon pacchetto per CV
+%\usepackage[eulermath,nochapters]{classicthesis} % stile ClassicThesis
 \usepackage[nochapters]{classicthesis} % stile ClassicThesis
 \usepackage{url}        % per gli indirizzi Internet
-\usepackage{cite}
+%\usepackage{cite}
+\usepackage{natbib}
 \usepackage{bibentry}
 \renewcommand{\cvheadingfont}{\LARGE\color{Maroon}}
 \renewcommand{\cvlistheadingfont}{\large}
@@ -66,6 +71,14 @@ plasma physics}
 \spacedlowsmallcaps{Research Experience}
 \vspace{0.5em}
 
+\NewWorkExperience{2009-Present}{Higgs Group,}{CMS}
+
+\Description{\MarginDate{Higgs physics} Ongoing work on analysis searching for Minimal
+Super Symmetric Model (MSSM) Higgs bosons in the $H \rightarrow \tau\tau
+\rightarrow \mu + \tau_{\rm{hadrons}} $ channel.  Expect first measurement of
+irreducible $Z\rightarrow\tau\tau$ background in the end of 2010, and new
+exclusion limits on the MSSM with 2011 CMS data.} \Sep 
+
 \NewWorkExperience{2009-Present}{Electroweak Tau Group,}{CMS}
 
 \Description{\MarginDate{$\tau$ physics} Authored the ``Secondary Vertex Fit,''
@@ -115,7 +128,7 @@ National Laboratory}
 Electronics Lab Assistant - assisted in developing new curriculum using modern
 microcontrollers.}
 \vspace{1em}
-\Description{\MarginDate{Three quarters} UC Davis Physics General Physics }
+\Description{\MarginDate{Three quarters} UC Davis General Physics (7/9)}
 \vspace{1em}
 
 \vspace{1.5em}
@@ -133,13 +146,22 @@ Collaboration Meeting, Brown University, Providence, Rhode Island}
 \spacedlowsmallcaps{Publications}
 \vspace{0.5em}
 
-\bibliographystyle{plain} 
-\bibliography{spires_papers}{}
+\Description{See attached list.}
+
+\begingroup
+\makeatletter
+\let\@bibitem\saved@bibitem
+\bibliographystyle{amsplain} 
+\nobibliography{spires_papers}
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+%\Description{\bibentry{:2009ft}}
+%\Description{\bibentry{:2009hw}}
+%\Description{\bibentry{Chatrchyan:2009hg}}
+% Just generate all the bibliography
 \nocite{*}
+\endgroup
 
 \enlargethispage{\baselineskip}
 \end{cv}
-
-%\nobibliography{cms_pas,spires_papers,other_papers}{}
-
 \end{document}
