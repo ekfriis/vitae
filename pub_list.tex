@@ -1,0 +1,53 @@
+% Adapted from http://www.cv-templates.info/2009/10/classicthesis-currvita-latex-cv-template/
+\documentclass{scrartcl}        % classe article di KOMA
+
+\makeatletter
+\let\saved@bibitem\@bibitem
+\makeatother
+
+
+%\usepackage[nochapters, eulermath]{classicthesis} % stile ClassicThesis
+\usepackage[LabelsAligned]{currvita}    % un buon pacchetto per CV
+
+\usepackage{color}
+\definecolor{Maroon}{cmyk}{0, 0.87, 0.68, 0.32}
+\RequirePackage{textcase} % for \MakeTextUppercase
+\RequirePackage{soul} %  opticals, fullfamily, osf
+\RequirePackage{microtype} % character protruding and other micro-typography stuff
+\microtypesetup{expansion=false}%
+%\DeclareRobustCommand{\spacedallcaps}[1]{\textssc{\MakeTextUppercase{#1}}}%
+%\DeclareRobustCommand{\spacedlowsmallcaps}[1]{\textssc{\MakeTextLowercase{#1}}}%
+\DeclareRobustCommand{\spacedallcaps}[1]{\textls[160]{\MakeTextUppercase{#1}}}%
+\DeclareRobustCommand{\spacedlowsmallcaps}[1]{\textls[80]{\scshape\MakeTextLowercase{#1}}}%
+
+
+\usepackage{natbib}
+\usepackage{bibentry}
+
+\renewcommand{\cvheadingfont}{\LARGE \color{Maroon} }
+\renewcommand{\cvlistheadingfont}{\large}
+\renewcommand{\cvlabelfont}{\qquad}
+
+\begin{document}
+\thispagestyle{empty}
+\begin{cv}{\spacedallcaps{Evan Klose Friis}}
+
+%\begin{cv}{Evan Klose Friis}
+
+\begingroup
+\makeatletter
+\let\@bibitem\saved@bibitem
+\bibliographystyle{amsplain} 
+\nobibliography{spires_papers}
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+%\Description{\bibentry{:2009ft}}
+%\Description{\bibentry{:2009hw}}
+%\Description{\bibentry{Chatrchyan:2009hg}}
+\bibentry{Chatrchyan:2009hg}
+% Just generate all the bibliography
+\nocite{*}
+\endgroup
+
+\end{cv}
+\end{document}
