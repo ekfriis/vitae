@@ -1,11 +1,15 @@
 
+bib_files = $(wildcard ~/Library/texmf/bibtex/bib/*.bib)
+
 all: cv.pdf
 
 cv.pdf: cv.aux cv.bbl
 	pdflatex cv
 	pdflatex cv
 
-cv.bbl: cv.aux my_papers.bib cv.tex
+publist.tex: $(bib_files)
+
+cv.bbl: cv.aux cv.tex $(bib_files)
 	bibtex cv
 
 cv.aux: cv.tex
