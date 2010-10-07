@@ -1,15 +1,25 @@
-\documentclass{scrartcl}	% classe article di KOMA
+% Adapted from http://www.cv-templates.info/2009/10/classicthesis-currvita-latex-cv-template/
+
+\documentclass{scrartcl}        % classe article di KOMA
 \reversemarginpar
 \newcommand{\MarginDate}[1]{\marginpar{\raggedleft\itshape\small#1}}
+%\usepackage[latin1]{inputenc}  % la codifica di input
+%\usepackage[T1]{fontenc}       % la codifica dei font
+\usepackage[LabelsAligned]{currvita}    % un buon pacchetto per CV
+\usepackage[nochapters]{classicthesis} % stile ClassicThesis
+\usepackage{url}        % per gli indirizzi Internet
+\usepackage{cite}
+\usepackage{bibentry}
 \renewcommand{\cvheadingfont}{\LARGE\color{Maroon}}
 \renewcommand{\cvlistheadingfont}{\large}
 \renewcommand{\cvlabelfont}{\qquad}
+
 %Setup hyperref package, and colours for links, text and headings
-\usepackage{hyperref}		
-\hypersetup{colorlinks,breaklinks,
-  urlcolor=Maroon, 
-  linkcolor=Maroon}
-\usepackage{eurosym}
+
+\usepackage{hyperref}           
+
+\hypersetup{colorlinks,breaklinks, urlcolor=Maroon,linkcolor=Maroon}
+%\usepackage{eurosym}
 \newlength{\datebox}\settowidth{\datebox}{Summer 2007}
 
 \newcommand{\NewWorkExperience}[3]{\noindent\hangindent=2em\hangafter=0 \parbox{\datebox}{\textit{#1}}\hspace{1.5em} #2 #3%
@@ -17,83 +27,119 @@
 
 \newcommand{\Description}[1]{\hangindent=2em\hangafter=0\noindent\raggedright\footnotesize{#1}\par\normalsize}
 \newcommand{\Sep}{\vspace{2em}}
+
 \begin{document}
+
 \thispagestyle{empty}
-\begin{cv}{\spacedallcaps{Evan K. Friis}}
-\vspace{1.5em}
+\begin{cv}{\spacedallcaps{Evan Klose Friis}}
+%\vspace{1.5em}
+%\spacedlowsmallcaps{Personal Data}
+\vspace{0.5em}
+\hangindent=2em
+~\\
+Rue de Peupliers 12\\
+1205 Gen\`{e}ve\\
+Suisse\\
+\href{mailto:friis@physics.ucdavis.edu}{friis@physics.ucdavis.edu} \\
++1 (530) 207-0353
 
-\spacedlowsmallcaps{Personal Data}
+
+\vspace{1.5em}
+\noindent\spacedlowsmallcaps{Education}
 \vspace{0.5em}
 
-\NewWorkExperience{}{\textit{Born in Matera,}}{13 November 1920}
+\NewWorkExperience{June 2011 Est.}{University of California,}{Davis}
 
-\NewWorkExperience{email}{\href{mailto:friis@physics.ucdavis.edu}{friis@physics.ucdavis.edu}}{}
-
-\NewWorkExperience{phone}{+1 (530) 207-0353}{}
-\vspace{1.5em}
-
-\noindent\spacedlowsmallcaps{Work Experience}
-\vspace{0.5em}
-
-\NewWorkExperience{Current}{Trader at Enoi spa,}{Milan}
-
-\Description{Provided analysis of spreads, \MarginDate{Physical Natural Gas Trading}
-in particular time and location spreads, with emphasis on trading 
-opportunities on the curve, also taking into 
-account the availability of storage facilities. Became familiar with logistic implications of physical gas trading and developed knowledge of continental virtual hubs for gas exchange.}
+\Description{\MarginDate{Ph.D. Experimental High Energy Physics} 
+Thesis: ``Search for Higgs bosons decaying to $\tau$ leptons at $\sqrt s = 7$TeV'' 
+Member of the Compact Muon Solenoid (CMS) collaboration at CERN~(2005--Present).
+\newline Advisor: Prof.~John \textsc{Conway} }
 
 \Sep
 
-\NewWorkExperience{2008--2009}{Lehman Brothers,}{London}
+\NewWorkExperience{June 2005}{University of California,}{San Diego}
 
-\Description{Developed spreadsheets for risk analysis\MarginDate{Commodities Exotics Trading} on exotic derivatives on a wide array of commodities (ags, oils, precious and base metals), managed blotter and secondary trades on structured notes, liaised with Middle Office, Sales and Structuring for bookkeeping}
+\Description{\MarginDate{B.S. Physics} Research experience: Non-neutral positron
+plasma physics}
 
-\Sep
-
-\NewWorkExperience{Summer 2007}{Lehman Brothers,}{London}
-
-\Description{Received pre-placed offer from the Exotics Trading Desk as a \MarginDate{Summer Internship} result of very positive review. 
-Rated ``truly distinctive'' for Analytical Skills and Teamwork}
 \vspace{1.5em}
-
-\spacedlowsmallcaps{Education}
+\spacedlowsmallcaps{Research Experience}
 \vspace{0.5em}
 
-\NewWorkExperience{July 2008}{Bocconi University,}{Milan}
+\NewWorkExperience{2009-Present}{Electroweak Tau Group,}{CMS}
 
-\Description{110/110 \textit{summa cum laude}\ \ $\cdotp$\ \  Major: Quantitative Finance\MarginDate{Master of Science in Finance}\newline Thesis: ``Sublinear and Locally Sublinear Prices'' \newline Advisor: Prof.~Erio \textsc{Castagnoli}\ \ $\cdotp$\ \  Gpa: 28.61/30}
+\Description{\MarginDate{$\tau$ physics} Authored the ``Secondary Vertex Fit,''
+a novel algorithm for reconstructing the invisible energy in $\tau$ lepton
+events that dramatically improves kinematic resolution and event acceptance.
+Developed methods and software for data--driven estimation of backgrounds from
+hadronic jet mis--tags in $\tau$ lepton analyses.  } \Sep
 
-\Sep
+\NewWorkExperience{2006-Present}{Tau Physics Object Group,}{CMS}
 
-\NewWorkExperience{July 2006}{Bocconi University,}{Milan}
+\Description{\MarginDate{$\tau$ identification} Developed the ``Tau Neural
+Classifier'' tau identification algorithm, which gives the highest signal
+efficiency for a given jet mis--tag rate among all published $\tau$-ID
+algorithms at hadron colliders.  Measured the jet mis--tag rate from first 7TeV
+CMS datasets.  Currently serve as software librarian and liaison to CMS
+reconstruction software group.} \Sep
 
-\Description{110/110 \textit{summa cum laude}\ \ $\cdotp$\ \  Major: Quantitative Finance\MarginDate{Some Other Education}\newline Thesis: ``Sublinear and Locally Sublinear Prices'' \newline Advisor: Prof.~Erio \textsc{Castagnoli}\ \ $\cdotp$\ \  Gpa: 28.61/30}
+\NewWorkExperience{2010-Present}{Luminous region monitoring at}{CMS}
+
+\Description{\MarginDate{Beamspot}Developed and supported tools to measure and
+monitor the luminous collision region at the CMS experiment.} \Sep
+
+\NewWorkExperience{2007-2008}{Pixel Detector Calibrations,}{CMS}
+
+\Description{\MarginDate{Pixel Detector}Developed software to characterize and
+calibrate the sixty million channels of the CMS silicon pixel detector.} 
+
 \vspace{1.5em}
-
-\spacedlowsmallcaps{Additional Information}
+\spacedlowsmallcaps{Awards and Honors}
 \vspace{0.5em}
 
-\Description{Sept. 2006	Scholarship for graduate students with an outstanding curriculum (\euro\ 30,000) }
-
+\Description{\MarginDate{Spring 2009} Visiting Scholar, Scuola Normale Superiore, Pisa,
+Italy}
 \vspace{1em}
-
-\Description{June 2006	Gmat\textregistered: 730 (q:50;v:39) \MarginDate{Gmat}96\textsuperscript{th} percentile; \newline\textsc{awa}: 6.0/6.0 (89\textsuperscript{th} percentile)}
-
+\Description{\MarginDate{2005, 2009} UC Davis Block Grant Recipient}
 \vspace{1em}
-\newlength{\langbox}
-\settowidth{\langbox}{English}
-\Description{\parbox{\langbox}{\textsc{English}}\ \ $\cdotp$\ \  \ Fluent}
+\Description{\MarginDate{2006-2007, 2009} UC Davis GAANN Fellow}
 
+\vspace{1.5em}
+\spacedlowsmallcaps{Teaching}
 \vspace{0.5em}
 
-\Description{\parbox{\langbox}{\textsc{French}}\ \ $\cdotp$\ \  \ Fluent}
-\MarginDate{Languages}
-\vspace{0.5em}
-
-\Description{\parbox{\langbox}{\textsc{Italian}}\ \ $\cdotp$\ \ \  Mother Tongue}
+\Description{\MarginDate{January 2010} Workshop Facilitator, EJTERM 2010, Fermi
+National Laboratory}
+\vspace{1em}
+\Description{\MarginDate{Five quarters} UC Davis Physics 116A
+Electronics Lab Assistant - assisted in developing new curriculum using modern
+microcontrollers.}
+\vspace{1em}
+\Description{\MarginDate{Three quarters} UC Davis Physics General Physics }
 \vspace{1em}
 
-\Description{\LaTeX\ \ $\cdotp$\ \ Typography\ \ $\cdotp$\ \  Programming\ \ $\cdotp$\ \  Other\MarginDate{Interests}}
+\vspace{1.5em}
+\spacedlowsmallcaps{Invited Talks}
+\vspace{0.5em}
+
+\Description{\MarginDate{September 2010} ``Tau reconstruction and identification
+in CMS'', 11th International Workshop on Tau Lepton Physics, Manchester, United
+Kingdom}
+\vspace{1em}
+\Description{\MarginDate{May 2010} ``Tau ID Object Performance '', US CMS 
+Collaboration Meeting, Brown University, Providence, Rhode Island}
+
+\vspace{1.5em}
+\spacedlowsmallcaps{Publications}
+\vspace{0.5em}
+
+\bibliographystyle{plain} 
+\bibliography{spires_papers}{}
+\nocite{*}
+
 \enlargethispage{\baselineskip}
 \end{cv}
+
+%\nobibliography{cms_pas,spires_papers,other_papers}{}
+
 \end{document}
