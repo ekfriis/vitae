@@ -1,24 +1,25 @@
-\documentclass[a4paper,10pt,oneside]{article}
+%\documentclass[a4paper,11pt,oneside]{amsart}
+\documentclass[a4paper,11pt,oneside]{amsart}
 \usepackage[pdftex]{hyperref}	%% many PDF options can be set here
 % 1 inch margins
 \usepackage{fullpage}
 \usepackage{fixme}
+%\usepackage{times}
+\usepackage[small,compact]{titlesec}
 % double spaced
 \renewcommand{\baselinestretch}{2}
 % no page numbers
-\pagestyle {empty}
-
+%\pagestyle {empty}
 \hypersetup{ pdfauthor = {Evan K. Friis},
   pdftitle = {Papallardo Fellowship application research proposal},
 }
 
+\setlength{\headsep}{0pt}
 \title{Searches for Higgs bosons using $\tau$ leptons at the LHC}
 \author{Evan K. Friis}
 \date{}
-
 \begin{document}
 %Outline:
-
 %Paragraph 1:
 %Taus are an important probe of Higgs physics:
  %* 10 percent of higgs decays for low mass SM higgs and all of the MSSM
@@ -29,7 +30,6 @@
  %misidentified, and because the associated neutrinos are not directly detected. 
  %* We have developed new techniques that dramatically improve tau identification
  %and the reconstruction of the neutrinos.
-
 %Paragraph 2:
 %Tau ID
  %* Critical to have high signal efficiency while rejecting multi--jet event
@@ -46,7 +46,6 @@
  %* For a given tau signal efficiency, the algorithm gives the lowest QCD di--jet
  %mis--tag rate of all published tau identification algorithms at hadron
  %colliders worldwide.
-
 %Paragraph 3:
 %Mass reconstruction
  %* In Higgs search natural choice is to search for bumps on Mtautau background.
@@ -61,7 +60,6 @@
  %information.
  %* Method has 100\% acceptance simultaneously improves the Mtautau resolution by
  %a factor of two w.r.t. the collinear approximation.
-
 %Paragraph 4:
 %Plans
  %* New techniques developed will improve the Higgs exclusion limits CMS can set.
@@ -77,121 +75,74 @@
  %* Extending to secondary fit to work on events with more than two taus.  
  %* This can improve H++.  
  %* Some dark matter signatures could manifset as production of 2* H+ H+
-\maketitle 
+%\maketitle 
+\centerline{\Large \bf  Searches for Higgs bosons using $\tau$ leptons at the LHC} %% Paper title
+\centerline{Evan K. Friis}
 
-The $\tau$ lepton is one of the most important probes of Higgs physics.  Higgs
-bosons decay to pairs of $\tau$ leptons 10\% of the time in the Standard Model
-(SM) when $M_H < 2M_W$, and over the entire parameter space of the Minimal Super
-Symmetric Model (MSSM).  The dominant decay mode of the Higgs ($H\rightarrow b
-\bar b$) is infeasible due to large backgrounds.  Tau leptons decay almost
-immediately after being produced.  Their decay products contain one or two
-neutrinos which are not directly measured in the detector, and in 65\% of decays
-the visible decay products are hadrons.  The invisible and hadronic component of
-$\tau$ decays makes using them uniquely challenging at hadron colliders.  Myself
-and my colleagues at UC Davis have pioneered new techniques that address these
-challenges and will improve the significance of searches for Higgs bosons at the
-Compact Muon Solenoid (CMS) experiment.  I propose to apply these techniques to
-existing analysis channels, investigate previously unfeasible new analyses, and
-continue development of the methods.
+ \medskip
+
+The $\tau$ lepton is one of the most important probes of Higgs physics. 
+Higgs boson decays to $\tau$ lepton pairs are one of the dominant discovery
+modes in the Standard Model (SM) when $M_H < 2M_W$, and over the entire
+parameter space of the Minimal Super Symmetric Model (MSSM).  Tau leptons decay
+almost immediately after being produced.  Their decay products contain one or
+two neutrinos which are not directly measured in the detector, and in 65\% of
+decays the visible decay products are hadrons.  The invisible and hadronic
+component of $\tau$ decays makes using them uniquely challenging at hadron
+colliders.  Myself and my colleagues at UC Davis have pioneered new techniques
+that address these challenges and will improve the significance of the first searches for
+Higgs bosons at the Compact Muon Solenoid (CMS) experiment.  I propose to apply
+these techniques to existing analysis channels, investigate previously
+infeasible new analyses, and continue development of the methods.
 
 A robust algorithm for identifying hadronic $\tau$ decays is critical to obtain
-high acceptance for signal events and low mis--tag rate for the multi--jet (QCD)
-background which is produced at rates $O(10^6)$ time or more higher than the
-signal.  Past CMS Higgs analyses have used a geometric isolation requirement to
-reject QCD mis--tags.  We introduced a new algorithm called the Tau Neural
-Classifier (TaNC), which is motivated by the fact that the different hadronic
-decay modes proceed through difference particle resonances.  An ensemble of
-neural networks (one for each possible decay mode) is used to classify $\tau$
-candidates.  Tuned to give the same signal efficiency as the isolation
-algorithm, the TaNC reduces the mis--tag background rate by a factor of four.
-For a given signal efficiency, the TaNC has the lowest di--jet mis--tag rate of
-any published hadron collider $\tau$-ID algorithm.
+high acceptance for signal events and a low mis--tag rate for the multi--jet (QCD)
+background which is produced at rates $O(10^8)$ times that of the signal.  Past
+CMS Higgs analyses have used a geometric isolation requirement to reject QCD
+mis--tags.  We introduced a new algorithm called the Tau Neural Classifier
+(TaNC), which is motivated by the fact that the different hadronic decay modes
+proceed through difference particle resonances.  An ensemble of neural networks
+(one for each decay mode) is used to classify $\tau$ candidates.  Tuned to give
+the same signal efficiency as the isolation algorithm, the TaNC reduces the
+mis--tag background rate by a factor of four.  For a given signal efficiency,
+the TaNC has the lowest di--jet mis--tag rate of any published hadron collider
+$\tau$-ID algorithm.
 
-In searches for Higgs bosons the natural approach is to search for bumps in the
-invariant mass spectrum of $\tau$ pairs ($M_{\tau\tau}$).  However, the tau
-lepton can not be directly measured in the detector due to the neutrino(s) in
-the decay.  In previous analyses, the neutrinos are reconstructed by assuming
-they are collinear with the visible decay products.  This approximation fails
-(with undetermined or unphysical solutions) for more than half of the signal
-events, which must be rejected.  The events that pass have poor resolution and
-non-Gaussian tails.  We developed a new technique called the Secondary Vertex
-(SV) fit, which uses information from the CMS tracker, missing energy
-measurement, and the kinematic distributions of tau decays.  The method is based
-on the fact that $\tau$ production and decay vertices give the direction of the
-$\tau$ lepton and that this information can be used to reconstruct the neutrino.
-The variables reconstructed by the method completely parameterize the physics of
-the tau lepton and its decay.  The method has 100\% acceptance (all solutions
-are physical), and improves the $M_{\tau\tau}$ resolution by more than a factor
-of two by more than a factor of two.  This improvement both enlarges \emph{and}
-sharpens the Higgs ``bump'' and improves separation from the electroweak
-$Z\rightarrow\tau\tau$ irreducible background.
+In searches for Higgs bosons the natural approach is to look for bumps in the
+Drell-Yan and $Z$ boson $\tau$ pair invariant mass spectrum ($M_{\tau\tau}$).
+However, a tau lepton can not be directly measured in the detector due to the
+neutrino(s) in the decay.  In previous analyses, the neutrinos are reconstructed
+by assuming they are collinear with the visible decay products.  This
+approximation rejects 55\% of the signal events with undetermined or unphysical
+solutions.  The events that pass have poor resolution and non-Gaussian tails.
+We developed a new technique called the Secondary Vertex (SV) fit, which uses
+information from the CMS tracker, missing energy measurement, and the kinematic
+distributions of tau decays.  The method is based on the fact that $\tau$ production
+and decay vertices determine the $\tau$ direction and this observable can be
+used to reconstruct the neutrino.  The SV fit has 100\% acceptance (all
+solutions are physical), and improves the $M_{\tau\tau}$ resolution by more than
+a factor of two. This improvement both enlarges \emph{and} sharpens the Higgs
+``bump'' and improves separation from the $Z\rightarrow\tau\tau$ background.
 
 The two new techniques described will improve the exclusion limits (or discovery
 significance!) that $H\rightarrow\tau\tau$ analyses can set at CMS.  I am
-currently participating in an MSSM $A/H \rightarrow \tau\tau \rightarrow \mu
-\tau_{\rm h} \nu_\mu \nu_\tau \bar {\nu_\tau}$ analysis using these new
-techniques and plan
-to set new exclusion limits on the MSSM this summer.  We expect the limits to be
-driven by statistics, and if awarded the fellowship I would continue to
-participate in this analysis and improve the limit as more data is produced.
-Additionally, I propose to apply the TaNC and SV fit to another channel, where
-both taus decay to hadrons.  This analysis has been abandoned since 1999, when
-it was determined to be very difficult due to high QCD mis--tag backgrounds.
-The TaNC and SV fit methods may make this channel a feasible probe for new
-physics.  The work done in these analyses will easily be translated to SM Higgs
-boson searches using taus once CMS has collected sufficient data.  Additionally,
-there are exciting possibilities for improving the SV fit method.  Due to the
-difference in spin, the helicities of the $\tau$ leptons are completely
-correlated (LL, RR) for $Z$ boson decays, and anti-correlated (RL, LR) for Higgs
-boson decays. The kinematic likelihoods used in the SV fit are sensitive to the
-helicity of the taus, and the method may be provide a handle to separate Higgs
-from the (currently) irreducible $Z\rightarrow\tau\tau$ background, which would
-improve the exclusion limits in both the MSSM and SM searches.  Another
-promising extension is using the SV fit for events with more than two $\tau$
-leptons.  This could open up previously infeasible channels in multi-Higgs
-events (with applications to direct dark matter searches) and doubly charged
-Higgs $H^{++} \rightarrow \ell^+ \ell^+ \ell^- \ell^+$ searches.  
-  % old shit
-  %\subsection*{Introduction} If awarded the Papallardo fellowship, I would use
-  %new and novel techniques for reconstructing and identifying tau leptons to
-  %search for evidence of existence of Higgs bosons at the Compact Muon Solenoid
-  %(CMS) experiment at the Large Hadron Collider.  During my graduate career, I
-  %(with my colleagues at UC Davis) have lead the development 
-
-  %\subsection*{Probing the Higgs sector with $\tau$ leptons} The $\tau$ lepton is
-  %one of the most important probes of Higgs physics.  In the Standard Model
-  %(SM), the Higgs to $\tau$ leptons roughly 10\% of the time for
-  %low Higgs mass ($M_H < 2M_W$).  The importance of the tau is even greater in
-  %the Minimal Super Symmetric Model (MSSM), where the coupling of the Higgs to
-  %down--type quarks and leptons is enhanced by square of the parameter
-  %$\tan\beta$.  For large $\tan\beta$, the MSSM
-  %Higgs bosons decay to $\tau$ leptons $O(10\%)$ of the time for all feasible
-  %Higgs masses.  The dominant Higgs decay ($~90\%$) in both SM and MSSM
-  %scenarios is into a $b$ quark pair.  This channel is
-  %extremely experimentally difficult due to enormous backgrounds.
-  %It is therefore critical to the success of the CMS physics program to search
-  %for Higgs bosons using $\tau$ leptons.
-
-  %\subsection*{Experimental challenges of $\tau$ leptons} The tau lepton is an
-  %unstable particle and always decays before reaching the innermost CMS sub
-  %detector.  Due to its high mass (1.78 GeV$/c^2$), the $\tau$ is unique among
-  %the leptons in that it has decays containing hadrons.  Hadronic decays
-  %constitute 65\% of all $\tau$ decays, and contain a tau neutrino and
-  %(typically) one to three pions.  The remaining decays leptonic, $\tau^\pm
-  %\rightarrow \ell \nu_\tau \bar{\nu_\ell}$, and split evenly between electrons
-  %and muons.  The structure of these decays result in the two dominant
-  %challenges: (1) identifying hadronic taus, and (2) reconstructing the
-  %undetected particles (neutrinos) associated with the tau decays.
-
-  %Inclusion of hadronic decays is essential to obtain a high acceptance.
-  %However, hadronic jets have a similar signature to hadronic tau decays, and
-  %are produced at a much higher rate ($O(10^5)$ or more) than interesting
-  %electroweak and Higgs signals.  A robust $\tau$ identification algorithm is
-  %needed to prevent the signal events from being overwhelmed by mis--tagged
-  %multi--jet events.
-
-  %Once a reasonably pure set of events have been selected, the natural approach
-  %to use in $H \rightarrow \tau\tau$ search is to search for new bumps in the
-  %invariant mass spectrum of the $\tau$ pair.  However, as the 
-
-  \end{document}
+currently participating in an MSSM $H \rightarrow \tau\tau$ search where one
+$\tau$ decay contains a $\mu$ and the other decays hadronically. We are
+implementing these new techniques in the analysis and plan to set new exclusion
+limits on the MSSM this summer.  We expect the limits to be driven by
+statistics, and if awarded the fellowship I would continue to participate in
+this analysis and improve the limit as more data is produced. The improvements
+in identification (TaNC) and mass resolution (SV fit) can enable Higgs searches
+previously considered infeasible.  Some notable examples I would pursue as a
+Pappalardo fellow include the MSSM/SM case where both taus decay hadronically,
+and SM vector boson fusion Higgs searches with early CMS datasets.  Finally, I
+propose to study the exciting possibilities for improving the SV fit method.
+Due to the difference in spin, the helicities of the $\tau$ leptons are
+completely anti-correlated (LR, RL) for $Z$ boson decays, and correlated (LL,
+RR) for Higgs boson decays. The likelihoods used in the SV fit are sensitive to
+the helicity of the taus, and may provide a handle to separate Higgs from the
+(currently irreducible) $Z\rightarrow\tau\tau$ background.  Another promising
+extension is using the SV fit for searches with an arbitrary number of $\tau$ 
+\nopagebreak leptons.  This could improve charged Higgs searches and open up previously
+infeasible channels in multi-Higgs events.  
+\end{document}

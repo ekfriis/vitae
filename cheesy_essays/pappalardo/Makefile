@@ -1,9 +1,9 @@
 
-papplardo.pdf: papplardo.aux
-	pdflatex papplardo
+pappalardo.pdf: pappalardo.aux
+	pdflatex pappalardo
 
-papplardo.aux: papplardo.tex
-	pdflatex papplardo
+pappalardo.aux: pappalardo.tex
+	pdflatex pappalardo
 
-show: papplardo.pdf
-	open papplardo.pdf
+show: pappalardo.pdf
+	open pappalardo.pdf
