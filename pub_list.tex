@@ -6,20 +6,9 @@
 \makeatother
 
 
-%\usepackage[nochapters, eulermath]{classicthesis} % stile ClassicThesis
+\usepackage[nochapters, eulermath]{classicthesis} % stile ClassicThesis
 \usepackage[LabelsAligned]{currvita}    % un buon pacchetto per CV
-
-\usepackage{color}
-\definecolor{Maroon}{cmyk}{0, 0.87, 0.68, 0.32}
-\RequirePackage{textcase} % for \MakeTextUppercase
-\RequirePackage{soul} %  opticals, fullfamily, osf
-\RequirePackage{microtype} % character protruding and other micro-typography stuff
-\microtypesetup{expansion=false}%
-%\DeclareRobustCommand{\spacedallcaps}[1]{\textssc{\MakeTextUppercase{#1}}}%
-%\DeclareRobustCommand{\spacedlowsmallcaps}[1]{\textssc{\MakeTextLowercase{#1}}}%
-\DeclareRobustCommand{\spacedallcaps}[1]{\textls[160]{\MakeTextUppercase{#1}}}%
-\DeclareRobustCommand{\spacedlowsmallcaps}[1]{\textls[80]{\scshape\MakeTextLowercase{#1}}}%
-
+\usepackage{fullpage}
 
 \usepackage{natbib}
 \usepackage{bibentry}
@@ -27,24 +16,59 @@
 \renewcommand{\cvheadingfont}{\LARGE \color{Maroon} }
 \renewcommand{\cvlistheadingfont}{\large}
 \renewcommand{\cvlabelfont}{\qquad}
+\newcommand{\Sep}{\vspace{1em}}
 
+\date{October 10th, 2010}
 \begin{document}
 \thispagestyle{empty}
 \begin{cv}{\spacedallcaps{Evan Klose Friis}}
-
-%\begin{cv}{Evan Klose Friis}
-
+\Sep \Sep
 \begingroup
 \makeatletter
 \let\@bibitem\saved@bibitem
-\bibliographystyle{amsplain} 
-\nobibliography{spires_papers}
+\bibliographystyle{lucas_unsrt} 
+\nobibliography{all_papers}
 \providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
 \providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
-%\Description{\bibentry{:2009ft}}
-%\Description{\bibentry{:2009hw}}
-%\Description{\bibentry{Chatrchyan:2009hg}}
-\bibentry{Chatrchyan:2009hg}
+\spacedallcaps{Selected CMS Physics Analysis Summaries}\\ ~\\
+\bibentry{CMS-PAS-PFT-08-001}\\ ~\\
+\bibentry{CMS-PAS-PFT-09-001}\\ ~\\
+\bibentry{CMS-PAS-PFT-10-001}\\ ~\\
+\bibentry{CMS-PAS-PFT-10-004}\\ ~\\
+
+\spacedallcaps{Journal Publications and preprints}\\ ~\\
+\bibentry{Khachatryan:2010pw}\\ ~\\
+\bibentry{Khachatryan:2010pv}\\ ~\\
+\bibentry{Khachatryan:2010mw}\\ ~\\
+\bibentry{Khachatryan:2010us}\\ ~\\
+\bibentry{Khachatryan:2010un}\\ ~\\
+\bibentry{Khachatryan:2010xs}\\ ~\\
+\bibentry{:2009dv}\\ ~\\
+\bibentry{:2009dq}\\ ~\\
+\bibentry{:2009dg}\\ ~\\
+\bibentry{:2009vs}\\ ~\\
+\bibentry{:2009vq}\\ ~\\
+\bibentry{:2009vp}\\ ~\\
+\bibentry{:2009vn}\\ ~\\
+\bibentry{Chatrchyan:2009im}\\ ~\\
+\bibentry{Chatrchyan:2009ih}\\ ~\\
+\bibentry{Chatrchyan:2009ig}\\ ~\\
+\bibentry{Chatrchyan:2009ic}\\ ~\\
+\bibentry{Chatrchyan:2009hy}\\ ~\\
+\bibentry{Chatrchyan:2009hw}\\ ~\\
+\bibentry{Chatrchyan:2009hg}\\ ~\\
+\bibentry{Chatrchyan:2009hb}\\ ~\\
+\bibentry{:2009gz}\\ ~\\
+\bibentry{:2009ft}\\ ~\\
+\bibentry{Chatrchyan:2009ks}\\ ~\\
+\bibentry{:2009kr}\\ ~\\
+\bibentry{Chatrchyan:2009km}\\ ~\\
+\bibentry{Chatrchyan:2009si}\\ ~\\
+\bibentry{Chatrchyan:2009qm}\\ ~\\
+\bibentry{Chatrchyan:2009sr}\\ ~\\
+\bibentry{Friis:2008tg}\\ ~\\
+\bibentry{:2008zzk}\\ ~\\
+
 % Just generate all the bibliography
 \nocite{*}
 \endgroup
