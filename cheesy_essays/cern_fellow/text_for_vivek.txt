@@ -1,0 +1,60 @@
+
+Evan has made major contributions to the Higgs physics program at CMS.  His
+contributions have directly improved the sensitivity of searches for the Higgs
+using taus at CMS.  Tau physics is especially difficult at hadron colliders due
+to the large fake background and the neutrinos produced in tau decays.  Evan has
+developed innovative new experimental techniques which directly address these
+two challenges.  
+
+Evan developed the novel tau identification algorithm TaNC.  The method uses an
+ensemble of neural networks and reconstructs the individual decay modes of the
+tau.  It reduced the background mis-identification rate of the previous
+algorithm used in the CMS PTDR by a factor of five while maintaining the same
+signal efficiency [1]. The performance of the algorithm was shown to be a factor
+of 3 to 4 times better than equivalent ATLAS algorithm at the Tau 2010
+conference.  The application of this algorithm to the Higgs search reduced the
+(previously) dominant QCD fake background below the level of the irreducible
+Ztautau background.  This resulted in better exclusion limits in the high mass
+region (lower QCD tail) and near the Z peak (measured with greater precision).
+Evan played a leading role in the commissioning of the tau identification [2,3],
+and serves as the software librarian and Reconstruction group contact for the
+Tau POG.
+
+Tau decays always include neutrinos so the mass of the tau pair is not directly
+reconstructed.  In the past, searches for the Higgs in the tau channels
+generally looked for the Higgs in the visible decay product mass spectrum.  Evan
+developed a new algorithm which reconstructs the full mass of the tau pair, the
+SV fit.  The SV fit reconstructs the neutrinos associated to the taus by
+maximizing a novel likelihood function.  The SV fit has 20% better relative
+resolution than the visible mass, allowing better discrimination between a Higgs
+bump and the Z background [4,5].  [The resolution is also much better than the
+collinear approximation, and the efficiency is 100% instead of 50%.  But no one
+serious uses the collinear approximation.]  The use of the SV fit shape (instead
+of the visible mass) directly improves the exclusion limits set by CMS on the
+MSSM by 20%, for all Higgs masses greater than 90 GeV/c^2.  This improvement has
+pushed the 2010 CMS result past the current RunIIb limits set by the Tevatron. 
+
+Evan applied these new methods in complete, independent analyses to measure the
+Ztautau cross section [6] and search for the MSSM Higgs [7].  He measured the
+fake backgrounds in the analyses using two complementary background estimation
+methods, a template fit and the Fake Rate Method [8, 9].  He has made extensive
+contributions to the TauAnalysis package, the analysis software framework of the
+EWK Tau PAG. 
+
+Evan has a number of proposals (Dynamical likelihood method, tracking detector
+information, tau polarization) to improve the performance of the SV fit
+algorithm.  Any improvement in the SV fit performance would translate directly
+to improved search significance of the MSSM Higgs search using current and
+future data sets.  Additionally, he has proposed applying the SV fit methods
+to apply to Standard Model Higgs searches, and searches with different
+tau topologies, such as the singly and doubly charged Higgs searches.
+
+[1] AN-2010/099
+[2] PAS-PFT-10-001
+[3] PAS-PFT-10-004
+[4] AN-2010/430
+[5] HIG-10-002
+[6] AN-2011/021
+[7] AN-2010/460
+[8] AN-2010/074
+[9] AN-2011/049
