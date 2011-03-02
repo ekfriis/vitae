@@ -1,0 +1,61 @@
+Spring 2005:
+HIUS         	 116  	 War and American Society  	  	 P
+LIGN         	 8    	 Languages & Cultures/Amer 	  	 P
+PHYS         	 199  	 Research for Undergraduat 	  	 P
+Winter 2005:
+LIGN         	 4    	 Language as a Cognitive S 	  	 P
+PHYS         	 121  	 Experimental Techniques   	  	 A+
+PHYS         	 130C 	 Quantum Physics           	  	 A-
+PHYS         	 140B 	 Statistical & Thermal Phy 	  	 P
+PHYS         	 199  	 Research for Undergraduat 	  	 P
+VIS          	 111  	 Structure of Art          	  	 P
+Fall 2004:
+MATH         	 120A 	 Elements of Complex Analy 	  	 B+
+PHYS         	 120B 	 Physical Measurements     	  	 A
+PHYS         	 130B 	 Quantum Physics           	  	 B+
+PHYS         	 140A 	 Statistical & Thermal Phy 	  	 B
+PHYS         	 199  	 Research for Undergraduat 	  	 P
+Spring 2004:
+MATH         	 163  	 History of Mathematics    	  	 B
+PHYS         	 100C 	 Electromagnetism          	  	 C-
+PHYS         	 120A 	 Physical Measurements     	  	 A
+PHYS         	 130A 	 Quantum Physics           	  	 B
+Winter 2004:
+PHYS         	 100B 	 Electromagnetism          	  	 A-
+PHYS         	 105B 	 Mathematical&Computationa 	  	 A-
+PHYS         	 110B 	 Mechanics                 	  	 B
+Fall 2003:
+PHYS         	 100A 	 Electromagnetism          	  	 A
+PHYS         	 105A 	 Mathematical&Computationa 	  	 A
+PHYS         	 110A 	 Mechanics                 	  	 B
+VIS          	 1    	 Intr/Art-Making:2-D Pract 	  	 P
+Spring 2003:
+COGS         	 11   	 Minds & Brains            	  	 NP
+HIUS         	 133  	 Environmental Hist/N. Ame 	  	 P
+MATH         	 109  	 Mathematical Reasoning    	  	 A-
+PHYS         	 2CL  	 Phys Lab-Elec,Magnetsm,Wa 	  	 B+
+PHYS         	 2DL  	 Physics Lab-Modern Physic 	  	 A+
+Winter 2003:
+ECE          	 60A  	 Circuits and Systems I    	  	 A
+MATH         	 20F  	 Linear Algebra            	  	 A-
+PHYS         	 2D   	 Phys-Relativity&Quantm Ph 	  	 A
+VIS          	 3    	 Intr/Art-Making:3-D Pract 	  	 A
+Fall 2002:
+ECE          	 30   	 Intro to Computer Enginee 	  	 A
+LIGN         	 7    	 Sign Language and its Cul 	  	 B
+MATH         	 20E  	 Vector Calculus           	  	 A-
+PHYS         	 2C   	 Physics-Flu,Wav,Thrmdyn,O 	  	 A
+Spring 2002:
+CSE          	 11   	 Intr/Computer Sci&Obj-Ori 	  	 B
+ECE          	 20B  	 Intr/Electrical Engineeri 	  	 B
+MATH         	 21D  	 Intro/Differential Equati 	  	 A
+PHYS         	 2B   	 Phys-Electricity and Magn 	  	 B+
+Winter 2002:
+ECE          	 20A  	 Intr/Electrical Engineeri 	  	 A
+MATH         	 21C  	 Calculus&Analyt Geom/Sci& 	  	 A+
+MCWP         	 50   	 Critical Writing          	  	 B
+PHYS         	 2A   	 Physics-Mechanics         	  	 A
+Fall 2001:
+CHEM         	 6AH  	 Honors General Chemistry  	  	 A
+MATH         	 20B  	 Calculus/Science & Engine 	  	 B+
+MCWP         	 40   	 Critical Writing          	  	 B

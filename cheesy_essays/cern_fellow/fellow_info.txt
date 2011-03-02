@@ -1,0 +1,34 @@
+For PhD holders and PhD students: Specify submission date, defence date, title
+of thesis and name of your supervisor; summarize your thesis in maximum 5 lines;
+give the most significant results obtained.
+
+Expected defense/submission date: June 15, 2011
+Thesis: Search for Higgs bosons decaying to $\tau$ leptons at $\sqrt s=7$ TeV
+Supervisor: John Conway
+
+A search was performed for Mininimal Super Symmetric Model (MSSM) Higgs bosons decaying to tau leptons in the 2010 CMS dataset.  New exclusion limits were set on the MSSM.  The thesis also describes the development of a novel new tau identificaiton and mass reconstruction algorithms, which dramatically improved the sensitivity of the search.  
+
+================================================================================
+
+List up to 3 experiments that you have participated in. In each case summarize
+in 2 lines your main contribution (other than your PhD)
+
+Compact Muon Solenoid experiment
+Developed new tau identification algorithm that improved background rejection by a factor of five.  Developed new tau pair mass reconstruction algorithm with improved Higgs exclusion senstivity by 20%.
+
+================================================================================
+
+List of (up to 5) presentations at international Conferences (specify talk or
+poster) or workshops: conference name, date, title of the talk
+
+11th International Workshop on Tau Lepton Physics, September 2010, "Tau reconstruction and identification in CMS"
+
+US CMS Collaboration Meeting, May 2010 "Tau ID Object Performance"
+
+ICHEP, July 2008, "Reconstruction and Identification of Hadronic Decays of Taus using the CMS Detector" (poster)
+
+================================================================================
+
+Statement of Research Interest (max 15 lines)
+
+

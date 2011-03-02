@@ -1,0 +1,21 @@
+Word Processing
+
+LaTeX, Pages, Word
+
+Other Software Packages
+
+ROOT, Numbers, Excel, LabView, Numpy
+
+Computer Languages
+
+High proficiency with C++ and Python. Also familiar with C and Atmel instruction
+set. Served as software librarian for Tau reconstruction group at CMS.  
+
+Computer hardware
+
+Strong skills in basic analog and digital electronics.  
+Experience interfacing and programming Atmel and PIC microcontrollers.
+
+Operating sytems
+
+Linux and OSX

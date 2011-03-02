@@ -1,0 +1,48 @@
+Winter 2005:
+Experimental Techniques   	  	 A+
+Quantum Physics           	  	 A-
+Statistical & Thermal Phy 	  	 P
+Research for Undergraduat 	  	 P
+Fall 2004:
+Elements of Complex Analy 	  	 B+
+Physical Measurements     	  	 A
+Quantum Physics           	  	 B+
+Statistical & Thermal Phy 	  	 B
+Research for Undergraduat 	  	 P
+Spring 2004:
+History of Mathematics    	  	 B
+Electromagnetism          	  	 C-
+Physical Measurements     	  	 A
+Quantum Physics           	  	 B
+Winter 2004:
+Electromagnetism          	  	 A-
+Mathematical&Computationa 	  	 A-
+Mechanics                 	  	 B
+Fall 2003:
+Electromagnetism          	  	 A
+Mathematical&Computationa 	  	 A
+Mechanics                 	  	 B
+Spring 2003:
+Mathematical Reasoning    	  	 A-
+Phys Lab-Elec,Magnetsm,Wa 	  	 B+
+Physics Lab-Modern Physic 	  	 A+
+Winter 2003:
+Circuits and Systems I    	  	 A
+Linear Algebra            	  	 A-
+Phys-Relativity&Quantm Ph 	  	 A
+Fall 2002:
+Intro to Computer Enginee 	  	 A
+Vector Calculus           	  	 A-
+Physics-Flu,Wav,Thrmdyn,O 	  	 A
+Spring 2002:
+Intr/Computer Sci&Obj-Ori 	  	 B
+Intr/Electrical Engineeri 	  	 B
+Intro/Differential Equati 	  	 A
+Phys-Electricity and Magn 	  	 B+
+Winter 2002:
+Intr/Electrical Engineeri 	  	 A
+Calculus&Analyt Geom/Sci& 	  	 A+
+Physics-Mechanics         	  	 A
+Fall 2001:
+Honors General Chemistry  	  	 A
+Calculus/Science & Engine 	  	 B+
