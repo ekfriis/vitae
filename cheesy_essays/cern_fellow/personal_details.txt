@@ -1,6 +1,6 @@
 Please give details of the work you are interested in doing at CERN*
 
-I am interested in continuing my research searching for the Higgs boson in channels with tau leptons at the CMS experiment.  I have developed new techniques using taus that greatly improved the sensitivity of the recently completed CMS MSSM Higgs search.  My goal is to apply these techniques to other Higgs searches with future CMS datasets. Additionally, I would like to continue my contributions to the CMS pixel detector calibrations and luminous region monitoring.
+I am interested in continuing my research searching for the Higgs boson in channels with tau leptons.  I have developed new techniques using taus that greatly improved the sensitivity of the recently completed CMS MSSM Higgs search.  My goal is to apply these techniques to other Higgs searches using future LHC data. Additionally, I would continue my contributions to the silicon tracker calibrations and luminous region monitoring, and explore opportunities to contribute to detector development.
 
 ================================================================================
 
@@ -10,8 +10,4 @@ and Student Programmes are particularly encouraged to complete this section
 explaining what they hope to achieve at CERN and their interest in this
 programme.
 
-* Want to come to CERN - community and excitement
-* Get more done
-* Hope to achieve set new exclusion limits on the SM Higgs with the 2011 and 2012 datasets
-
-I am excited about the CERN fellowship because I feel that being on-site is the best way to maximize my contribution to the experiment.  Having been based both in California (9 time zones away) and at CERN during my graduate career, I have found that when I am close to my colleagues the feedback they give (there is never a shortage of opinion at CERN) greatly improves the quality and quantity of my research.  My goal for the period of the CERN fellowship would be to set the world's best limits on (or discover!) the Higgs boson using tau leptons, and become more involved with a silicon tracker project.
+The search for the Higgs using tau leptons using the (relatively modest) 2010 LHC data has been a resounding success: as a result of hard work and innovative techniques, we have set the world's best limits on the MSSM.  The results obtained using only 36pb^-1 are better than a 2009 prediction that assumed three times the data and a higher collision energy. This progress will accelerate with the upcoming flood of LHC data, and I am very excited to find out what nature has in store for us.  Having spent part of my graduate career in California and part at CERN, I know that being on-site is the best way to maximize my contribution to the experiment.  When I am close to my colleagues the feedback they give greatly improves the quality and quantity of my research. The ability to choose the direction of my research and the support provided by a CERN fellowship would allow me to maximize my contributions to high-energy physics.  My goal for the period of the CERN fellowship would be to set the world's best limits on (or discover!) the Higgs boson using tau leptons, and be involved in a silicon tracker project.
