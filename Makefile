@@ -1,24 +1,28 @@
 
 bib_files = $(wildcard ~/Library/texmf/bibtex/bib/*.bib)
 
-all: cv.pdf pub_list.pdf
+all: cv.pdf pub_list.pdf statement_of_research.pdf
 
 cv.pdf: cv.aux cv.bbl
 	pdflatex cv
-	pdflatex cv
 
-cv.bbl: cv.aux cv.tex $(bib_files)
+cv.bbl: cv.aux $(bib_files)
 	bibtex cv
 
 cv.aux: cv.tex
 	pdflatex cv
 
+statement_of_research.pdf: statement_of_research.aux
+	pdflatex statement_of_research
+
+statement_of_research.aux: statement_of_research.tex
+	pdflatex statement_of_research
+
 # Make pub list
 pub_list.pdf: pub_list.aux pub_list.bbl
 	pdflatex pub_list
-	pdflatex pub_list
 
-pub_list.bbl: pub_list.aux pub_list.tex $(bib_files)
+pub_list.bbl: pub_list.aux $(bib_files)
 	bibtex pub_list
 
 pub_list.aux: pub_list.tex
