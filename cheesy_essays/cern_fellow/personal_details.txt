@@ -1,6 +1,12 @@
 Please give details of the work you are interested in doing at CERN*
 
-I am interested in continuing my research searching for the Higgs boson in channels with tau leptons.  I have developed new techniques using taus that greatly improved the sensitivity of the recently completed CMS MSSM Higgs search.  My goal is to apply these techniques to other Higgs searches using future LHC data. Additionally, I would continue my contributions to the silicon tracker calibrations and luminous region monitoring, and explore opportunities to contribute to detector development.
+I am interested in continuing my research searching for the Higgs boson in
+channels with tau leptons.  I have developed new techniques using taus that
+greatly improved the sensitivity of the recently completed CMS MSSM Higgs
+search.  My goal is to apply these techniques to other Higgs searches using
+future LHC data. Additionally, I would continue my contributions to the silicon
+tracker calibrations and luminous region monitoring, and explore opportunities
+to contribute to detector development.
 
 ================================================================================
 
@@ -10,5 +16,17 @@ and Student Programmes are particularly encouraged to complete this section
 explaining what they hope to achieve at CERN and their interest in this
 programme.
 
-Using the 2010 LHC dataset, my search for the Higgs decaying via tau leptons has set the best limits on the MSSM. As a result of hard work and innovative techniques, the results we obtained with only 36pb^-1 are better than the 2009 prediction that assumed three times the data and a higher collision energy.  These improvements will accelerate the rate at which we can do physics with the upcoming flood of LHC data, and I am very excited to find out what nature has in store for us. 
-Over the course of my graduate career I have built strong networks with my colleagues at CERN and have expert-level knowledge of the computational and experimental resources that CERN provides. My research on new techniques for doing physics with taus is just scratching the surface of the possibilities for this work, and I am eager to continue it, with an ultimate goal of setting the world's best limits on - or discovering - the Higgs boson using tau leptons. A CERN fellowship will provide me with the resources, network, and creative freedom to pursue this goal.
+Using the 2010 LHC dataset, my search for the Higgs decaying via tau leptons has
+set the best limits on the MSSM. As a result of hard work and innovative
+techniques, the results we obtained with only 36pb^-1 are better than the 2009
+prediction that assumed three times the data and a higher collision energy.
+These improvements will accelerate the rate at which we can do physics with the
+upcoming flood of LHC data, and I am very excited to find out what nature has in
+store for us.  Over the course of my graduate career I have built strong
+networks with my colleagues at CERN and have expert-level knowledge of the
+computational and experimental resources that CERN provides. My research on new
+techniques for doing physics with taus is just scratching the surface of the
+possibilities for this work, and I am eager to continue it, with an ultimate
+goal of setting the world's best limits on - or discovering - the Higgs boson
+using tau leptons. A CERN fellowship will provide me with the resources,
+network, and creative freedom to pursue this goal.

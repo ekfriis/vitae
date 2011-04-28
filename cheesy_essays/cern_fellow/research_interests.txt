@@ -1,1 +1,13 @@
-The bulk of my previous research has concerned development of new experimental techniques using tau leptons and their application in searches for the MSSM Higgs boson. The use of these techniques has dramatically enhanced the sensitivity of the CMS MSSM Higgs analysis.  In the future, I will extend the number of channels in the MSSM analysis and apply these techniques to other Higgs searches using taus.  These analyses will allow the LHC to set the world's best limits on (or discover) the Higgs boson with the 2011 and 2012 data.  There are also a number of potential improvements to the new tau techniques that I would like to implement.  The introduction of these techniques improved the sensitivity of the current Higgs search by 20%; further improvement in these methods would translate directly to improved search significance in current and future datasets.  Finally, I plan to become involved in developing future detectors, particularly new silicon tracking systems.
+The bulk of my previous research has concerned development of new experimental
+techniques using tau leptons and their application in searches for the MSSM
+Higgs boson. The use of these techniques has dramatically enhanced the
+sensitivity of the CMS MSSM Higgs analysis.  In the future, I will extend the
+number of channels in the MSSM analysis and apply these techniques to other
+Higgs searches using taus.  These analyses will allow the LHC to set the world's
+best limits on (or discover) the Higgs boson with the 2011 and 2012 data.  There
+are also a number of potential improvements to the new tau techniques that I
+would like to implement.  The introduction of these techniques improved the
+sensitivity of the current Higgs search by 20%; further improvement in these
+methods would translate directly to improved search significance in current and
+future datasets.  Finally, I plan to become involved in developing future
+detectors, particularly new silicon tracking systems.

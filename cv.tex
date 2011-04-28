@@ -3,7 +3,7 @@
 \documentclass{scrartcl}        % classe article di KOMA
 
 \makeatletter
-\let\saved@bibitem\@bibitem
+%\let\saved@bibitem\@bibitem
 \makeatother
 
 \reversemarginpar
@@ -73,15 +73,15 @@ Member of the Compact Muon Solenoid (CMS) collaboration at CERN~(2005--Present).
 \Description{\MarginDate{B.S. Physics} Research experience: Designed 
 control system for non-neutral positron plasma trap.}
 
-\vspace{1.5em}
-\spacedlowsmallcaps{Technical Skills}
-\vspace{0.5em}
+%\vspace{1.5em}
+%\spacedlowsmallcaps{Technical Skills}
+%\vspace{0.5em}
 
-\Description{\MarginDate{Software} C++, Python, ROOT, LabView, AutoCAD} 
-\vspace{1em}
-\Description{\MarginDate{Electronics} Analog/Digital, Atmel Microcontrollers}
-\vspace{1em}
-\Description{\MarginDate{Hardware} Metal \& wood working, some welding}
+%\Description{\MarginDate{Software} C++, Python, ROOT, LabView, AutoCAD} 
+%\vspace{1em}
+%\Description{\MarginDate{Electronics} Analog/Digital, Atmel Microcontrollers}
+%\vspace{1em}
+%\Description{\MarginDate{Hardware} Metal \& wood working, some welding}
 
 \vspace{1.5em}
 \spacedlowsmallcaps{Research Experience}
@@ -110,9 +110,10 @@ hadronic jet mis--tags in $\tau$ lepton analyses.  } \Sep
 
 \Description{\MarginDate{$\tau$ identification} Developed the ``Tau Neural
 Classifier'' tau identification algorithm, which has a jet mis--tag rate that is
-a factor of five lower than the previous algorithm used in CMS.  Measured the
+a factor of five lower than the previous algorithm used in CMS\@.  Measured the
 hadronic jet mis--tag rate from first $7~\TeV$ CMS datasets.  Currently serve as
-software librarian and liaison to CMS reconstruction software group.} \Sep
+the coordinator of the offline tau software and liaison to CMS reconstruction
+software group.} \Sep
 
 \NewWorkExperience{2010-Present}{Luminous region monitoring at}{CMS}
 
@@ -141,6 +142,9 @@ pumped excimer lasers.} \Sep
 \spacedlowsmallcaps{Awards and Honors}
 \vspace{0.5em}
 
+\Description{\MarginDate{Spring 2010} Finalist, UC Davis Big Bang! Business Plan
+Competition}
+\vspace{1em}
 \Description{\MarginDate{Spring 2009} Visiting Scholar, Scuola Normale Superiore, Pisa,
 Italy}
 \vspace{1em}
@@ -152,8 +156,8 @@ Italy}
 \spacedlowsmallcaps{Teaching}
 \vspace{0.5em}
 
-\Description{\MarginDate{January 2010} Workshop Facilitator, EJTERM 2010, Fermi
-National Laboratory}
+\Description{\MarginDate{January 2010} Workshop Facilitator, EJTERM 2010, 
+Fermilab}
 \vspace{1em}
 \Description{\MarginDate{Five quarters} UC Davis Physics 116
 Electronics Lab Assistant - assisted in developing new curriculum using modern
@@ -166,6 +170,9 @@ microcontrollers.}
 \spacedlowsmallcaps{Invited Talks}
 \vspace{0.5em}
 
+\Description{\MarginDate{April 2011} ``Search for Neutral MSSM Higgs Bosons Decaying to Taus'',
+LPC Physics Forum, Fermilab, Illinois}
+\vspace{1em}
 \Description{\MarginDate{April 2011} ``Tau Reconstruction at CMS'',
 Tau Portal HEFTI Workshop, Davis, California}
 \vspace{1em}
@@ -185,7 +192,7 @@ Collaboration Meeting, Brown University, Providence, Rhode Island}
 \begingroup
 \makeatletter
 \let\@bibitem\saved@bibitem
-\bibliographystyle{amsplain} 
+\bibliographystyle{lucas_unsrt} 
 \nobibliography{spires_papers}
 \providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
 \providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
