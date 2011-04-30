@@ -1,6 +1,13 @@
 
 bib_files = $(wildcard ~/Library/texmf/bibtex/bib/*.bib)
 
+# Get everything ready to send
+package: cv.pdf pub_list.pdf statement_of_research.pdf
+	mkdir -p package
+	cp cv.pdf package/friis_cv.pdf
+	cp pub_list.pdf package/friis_pub_list.pdf
+	cp statement_of_research.pdf package/friis_statement_of_research.pdf
+
 all: cv.pdf pub_list.pdf statement_of_research.pdf
 
 cv.pdf: cv.aux cv.bbl
