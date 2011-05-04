@@ -9,15 +9,14 @@ Evan developed the novel tau identification algorithm TaNC.  The method uses an
 ensemble of neural networks and reconstructs the individual decay modes of the
 tau.  It reduced the background mis-identification rate of the previous
 algorithm used in the CMS PTDR by a factor of five while maintaining the same
-signal efficiency. The performance of the algorithm was shown to be a factor
-of 3 to 4 times better than equivalent ATLAS algorithm at the Tau 2010
-conference.  The application of this algorithm to the Higgs search reduced the
-(previously) dominant QCD fake background below the level of the irreducible
-Ztautau background.  This resulted in better exclusion limits in the high mass
-region (lower QCD tail) and near the Z peak (measured with greater precision).
-Evan played a leading role in the commissioning of the tau identification,
-and serves as the software librarian and Reconstruction group contact for the
-Tau POG.
+signal efficiency. The performance of the algorithm was shown to be a factor of
+3 to 4 times better than equivalent ATLAS algorithm at the Tau 2010 conference.
+The application of this algorithm to the Higgs search reduced the previously
+dominant QCD fake background below the level of the irreducible Ztautau
+background.  This resulted in better exclusion limits in the high mass region
+(lower QCD tail) and near the Z peak (measured with greater precision).  Evan
+played a leading role in the commissioning of the tau identification, and serves
+as the software librarian and Reconstruction group contact for the Tau POG.
 
 Tau decays always include neutrinos so the mass of the tau pair is not directly
 reconstructed.  In the past, searches for the Higgs in the tau channels
@@ -26,10 +25,7 @@ developed a new algorithm which reconstructs the full mass of the tau pair, the
 SV fit.  The SV fit reconstructs the neutrinos associated to the taus by
 maximizing a novel likelihood function.  The SV fit has better relative
 resolution than the visible mass, allowing better discrimination between a Higgs
-bump and the Z background.  The use of the SV fit shape (instead
-of the visible mass) directly improves the exclusion limits set by CMS on the
-MSSM by 20%, for all Higgs masses greater than 90 GeV/c^2.  This improvement has
-pushed the 2010 CMS result past the current RunIIb limits set by the Tevatron. 
+bump and the Z background.  
 
 Evan applied these new methods in complete, independent analyses to measure the
 Ztautau cross section and search for the MSSM Higgs, and was the first to show
@@ -37,7 +33,16 @@ that CMS could set new exclusion limits on the MSSM Higgs with the 2010 dataset.
 He measured the fake backgrounds in the analyses using two complementary
 background estimation methods; the Template Fit and the Fake Rate Method.  He
 has made extensive contributions to the TauAnalysis package, the analysis
-software framework of the EWK Tau PAG. 
+software framework of the EWK Tau PAG.  Additionally, he has served as the
+software coordinator for the Tau Physics Object group for the past three years.
+
+These efforts have culminated in the recent CMS result on the search for MSSM
+Higgs bosons decaying to tau leptons.  The result sets the worlds best limit on
+the MSSM Higgs decaying to taus and has been recently accepted for
+publication in Phys. Rev. Lett. B.  The use of the SV fit shape (instead of the
+visible mass) improves the exclusion limits set by CMS on the MSSM by
+20%, for all Higgs masses greater than 90 GeV/c^2.  This improvement has pushed
+the 2010 CMS result past the current RunIIb limits set by the Tevatron. 
 
 Evan has a number of proposals (Dynamical likelihood method, tracking detector
 information, tau polarization) to improve the performance of the SV fit
@@ -46,3 +51,14 @@ to improved search significance of the MSSM Higgs search using the current and
 future data sets.  Additionally, he has proposed applying the SV fit methods
 to Standard Model Higgs searches and searches with different
 tau topologies, such as the singly and doubly charged Higgs.
+
+Four lines: 
+
+During my graduate career, I have made major contributions to the
+pixel detector and CMS tau physics programs.  I assisted in the commissioning of
+the forward pixel detector, and developed a large fraction of the offline pixel
+calibration software.  In the last two years my focus has been on tau physics,
+including software maintenance, algorithm development (TaNC and SVfit), and
+commissioning.  My analysis efforts have focused on the MSSM Higgs
+search and Ztautau cross section measurement.
+
