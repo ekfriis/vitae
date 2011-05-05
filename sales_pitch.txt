@@ -42,7 +42,7 @@ the MSSM Higgs decaying to taus and has been recently accepted for
 publication in Phys. Rev. Lett. B.  The use of the SV fit shape (instead of the
 visible mass) improves the exclusion limits set by CMS on the MSSM by
 20%, for all Higgs masses greater than 90 GeV/c^2.  This improvement has pushed
-the 2010 CMS result past the current RunIIb limits set by the Tevatron. 
+the 2010 CMS result past the RunII limits set by the Tevatron. 
 
 Evan has a number of proposals (Dynamical likelihood method, tracking detector
 information, tau polarization) to improve the performance of the SV fit
