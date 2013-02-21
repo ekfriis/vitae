@@ -4,3 +4,6 @@
 *.out
 *.blg
 *.pdf
+.DS_Store
+*.fls
+*.fdb_latexmk
